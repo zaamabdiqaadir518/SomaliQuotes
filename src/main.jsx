@@ -1,8 +1,12 @@
 import React from 'react'
 import {createRoot} from "react-dom/client"
+import F from './components/Somali'
+import SomaliQuotes from './components/main'
+import Foot from './components/foot'
 // import Hero from './main3'
 // import Hero from './light'
-import Hero from './counter'
+// import Hero from './counter'
+// import Menu from './components/menu'
 // import Header from "./components/Header"
 // import Hero from "./components/Hero"
 // import Footer from "./components/Footer"
@@ -26,8 +30,13 @@ createRoot(root).render(
   
  
  <div>
+ <F/>
+  <SomaliQuotes/>
+  <Foot/>
+
   {/* {<Tasbih/> */}
-  <Hero/> 
+  {/* <Hero/>  */}
+  {/* <Menu/> */}
   {/* <Counter/> */}
   {/* <App/> */}
   {/* <Main/> */}
